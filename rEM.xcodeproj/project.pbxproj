@@ -15,6 +15,7 @@
 		5DC513B816627F1E004D3F1E /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC513B716627F1E004D3F1E /* GTAppDelegate.m */; };
 		5DC513BB16627F1E004D3F1E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DC513B916627F1E004D3F1E /* MainStoryboard.storyboard */; };
 		5DC513BE16627F1E004D3F1E /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC513BD16627F1E004D3F1E /* GTViewController.m */; };
+		5DC513C516627F5E004D3F1E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DC513C416627F5E004D3F1E /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,16 @@
 		5DC513A716627F1E004D3F1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5DC513A916627F1E004D3F1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5DC513AB16627F1E004D3F1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5DC513AF16627F1E004D3F1E /* rEM-Info.plist */ = {isa = PBXFileReference; path = "rEM-Info.plist"; sourceTree = "<group>"; };
+		5DC513AF16627F1E004D3F1E /* rEM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rEM-Info.plist"; sourceTree = "<group>"; };
 		5DC513B116627F1E004D3F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DC513B316627F1E004D3F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5DC513B516627F1E004D3F1E /* rEM-Prefix.pch */ = {isa = PBXFileReference; path = "rEM-Prefix.pch"; sourceTree = "<group>"; };
-		5DC513B616627F1E004D3F1E /* GTAppDelegate.h */ = {isa = PBXFileReference; path = GTAppDelegate.h; sourceTree = "<group>"; };
+		5DC513B516627F1E004D3F1E /* rEM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rEM-Prefix.pch"; sourceTree = "<group>"; };
+		5DC513B616627F1E004D3F1E /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
 		5DC513B716627F1E004D3F1E /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
 		5DC513BA16627F1E004D3F1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5DC513BC16627F1E004D3F1E /* GTViewController.h */ = {isa = PBXFileReference; path = GTViewController.h; sourceTree = "<group>"; };
+		5DC513BC16627F1E004D3F1E /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
 		5DC513BD16627F1E004D3F1E /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
+		5DC513C416627F5E004D3F1E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		5DC5139816627F1E004D3F1E = {
 			isa = PBXGroup;
 			children = (
+				5DC513C416627F5E004D3F1E /* Default.png */,
 				5DC513AD16627F1E004D3F1E /* rEM */,
 				5DC513A616627F1E004D3F1E /* Frameworks */,
 				5DC513A416627F1E004D3F1E /* Products */,
@@ -151,6 +154,7 @@
 			files = (
 				5DC513B216627F1E004D3F1E /* InfoPlist.strings in Resources */,
 				5DC513BB16627F1E004D3F1E /* MainStoryboard.storyboard in Resources */,
+				5DC513C516627F5E004D3F1E /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
